@@ -123,11 +123,11 @@ if st.button("📊 Calcular Consumo", type="primary"):
             f"{capacidad_btu:,.0f}",
             f"{horas_uso:,.0f}",
             f"{seer}",
-            f"${precio_kwh:.2f}/kWh",
-            f"{consumo_kwh:,.2f} kWh",
-            f"${consumo_usd:,.2f} USD"
+            f"${precio_kwh:.2f}",
+            f"{consumo_kwh:,.2f}",
+            f"${consumo_usd:,.2f}"
         ],
-        "Unidad": ["BTU/h", "horas", "", "", "kWh", "USD"]
+        "Unidad": ["BTU/h", "horas", "", "$/kWh", "kWh", "USD"]
     })
     
     # Estilizar la tabla
